@@ -1,0 +1,29 @@
+plantshopapp
+|-- src/main/java
+|   |-- com/ecommerce
+|       |-- config
+|       |   |-- SecurityConfig.java
+|       |-- controller
+|       |   |-- UserController.java
+|       |   |-- ProductController.java
+|       |   |-- OrderController.java
+|       |-- dao
+|       |   |-- UserRepository.java
+|       |   |-- UserAddressRepository.java
+|       |   |-- ProductRepository.java
+|       |   |-- OrderRepository.java
+|       |-- dto
+|       |   |-- User.java
+|       |   |-- UserAddress.java
+|       |   |-- Product.java
+|       |   |-- Order.java
+|       |-- service
+|           |-- exception
+|           |   |-- UserAlreadyExistsException.java
+|           |   |-- UserNotFoundException.java
+|           |-- UserService.java
+|           |-- ProductService.java
+|           |-- OrderService.java
+|-- src/main/resources
+|   |-- application.properties
+|-- pom.xml
