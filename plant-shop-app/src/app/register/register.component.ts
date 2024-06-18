@@ -14,7 +14,7 @@ export class RegisterComponent {
   register() {
     this.userService.register(this.user).subscribe(
       response => {
-        console.log('User registered successfully', response);
+        console.log('User registered successfully!', response);
       },
       error => {
         console.error('There was an error during the registration process!', error);
