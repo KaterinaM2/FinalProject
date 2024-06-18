@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .main-content {
+    margin-left: 15rem;
+    padding: 1rem;
+  }
+  

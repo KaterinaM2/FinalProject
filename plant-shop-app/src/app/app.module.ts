@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';  // Import FormsModule
+import { FormsModule } from '@angular/forms';  
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule, Routes } from '@angular/router';  // Import RouterModule and Routes
+import { RouterModule, Routes } from '@angular/router';  
 
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule,  // Add FormsModule to imports array
     HttpClientModule,
     RouterModule.forRoot(appRoutes)  // Add RouterModule with routes
   ],
@@ -36,6 +36,7 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 
 
 
